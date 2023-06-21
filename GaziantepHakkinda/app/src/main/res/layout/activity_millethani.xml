@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="11dp"
+    tools:context=".millethani">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Tarihi Millet Hanı"
+        android:textSize="22dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="11dp"
+        android:layout_height="wrap_content"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="263dp"
+                app:srcCompat="@drawable/mmillethani" />
+
+            <TextView
+                android:id="@+id/tarihce_acıklama_activity_hk"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="7dp"
+                android:text="Yapı, Osmanlı han mimarisi içinde iki katlı, tek avlulu hanlar grubuna girer. Kıbrıs Fatihi Lala Mustafa Paşa’nın Antep Beyliği zamanında Keçeciler Bedesteni (diğer isimleri Bedesten-i Atik, Karanlık Bedesten) olarak 1575 yılında yapılmış, sonradan ilaveler ile doğusu Pazar Hamamı, batısı Bıçakçı Çarşısı, güneyi Salaba ağzı, Kazaz Çarşısı ve kuzeyi kale olmak üzere kervansaray niteliği kazanmıştır. 1890 yılında üst katı ilave edilerek bugünkü halini alan hanın Cumhuriyet döneminden önceki adı “Aziziye” olarak kayıtlara geçmiştir. Atatürk’ün Gaziantep’i ziyareti sırasında Atatürk Hanı olarak değiştirilmek istenen hanın ismi, büyük önderin “Bu han benim değil milletin hanı olsun” sözlerinin ardından Millet Hanı olarak tarihteki seyrine devam etmiştir. Günümüzde turistik el sanatları mağazaları ve dinlenme alanı olarak Kültür Yolu üzerindeki önemli duraklardan birisidir."
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

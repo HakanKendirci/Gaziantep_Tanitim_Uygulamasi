@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="11dp"
+    tools:context=".kale">
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Gaziantep Kalesi"
+        android:textSize="22dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="11dp"
+        android:layout_height="wrap_content"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="263dp"
+                app:srcCompat="@drawable/kale" />
+
+            <TextView
+                android:id="@+id/tarihce_acıklama_activity_hk"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="7dp"
+                android:text="Gaziantep Kalesi, Türkiye’de ayakta kalabilen kalelerin en güzel örneklerinden birisi olup, gerek ihtişamı gerekse tarihiyle şehir merkezinde, Alleben Deresi’nin güney kenarında, yaklaşık 25 m yükseklikte hemen herkesin dikkatini çeken bir tepe üzerinde konumlanmaktadır. Gaziantep Kalesi’nin ne zaman ve kimler tarafından yapıldığı hakkında kesin bir bilgi bulunmamaktadır. Tarihi günümüzden 6000 yıl geçmişe, Kalkolitik döneme kadar giden bir höyük üzerinde kurulduğu, M.S. 2-3.yy.’da ise kale ve çevresinde “Theban” isimli küçük bir kentin olduğu bilinmektedir. M.S. 2-4.yy.’da kalenin, ilk olarak Roma döneminde bir gözetleme kulesi olarak yapıldığı ve zaman içerisinde genişletildiği yapılan arkeolojik kazılarla anlaşılmıştır. Bugünkü biçimini ise Kaleler mimarı olarak bilinen Bizans İmparatoru Iustinianos döneminde M.S. 6.yy.’da almıştır. Yine bu dönemde kale önemli bir onarım geçirmiş olup, onarım sırasında tesviyenin sağlanması için, güney bölüm kemerli ve tonozlu galerilerden oluşan substrüksiyon (temel) yapılarıyla donatılmış, bu galerilerle birbirine bağlanan kuleler inşa edilmiş ve sur bedenleri batı, güney ve doğuya, tepenin sınırına kadar genişlemiştir. Kale bu haliyle gayrı muntazam dairesel bir şekle sahiptir. Kale bedenleri üzerinde 12 adet kule mevcuttur. Evliya Çelebi Seyahatnamesi’nde kalenin 36 burcundan bahsetmektedir. Günümüzde ise bunların yalnızca 12 tanesini görebilmekteyiz. Geri kalan 24 burcun ise kalenin dış surları üzerinde bulunduğu ve günümüze kadar gelemediği düşünülmektedir. Kale çevresinde bir hendek bulunmakta ve kaleye geçiş ise köprü ile sağlanmaktadır. Kale köprüsünü geçip, asıl kale kapısına ulaşmadan, sol tarafta ise halk tarafından İmam-ı Gazali Hazretlerinin Makamı olarak adlandırılan bir burç bulunmaktadır.Bizans dönemini takip eden yıllarda özellikle Memluklar, Dulkadiroğluları ve Osmanlılar ihtiyaca göre kaleyi zaman zaman onarmışlar ve buna dair onarım kitabeleri koymuşlardır. Kale ikinci defa, 1481 yılında Mısır Sultanı Kayıtbay tarafından elden geçirilmiştir. Ana kapı üzerinde yer alan kitabeden, ana kapı ve kale köprüsünün iki yanındaki kulelerin, Osmanlı İmparatorluğu döneminde Kanuni Sultan Süleyman tarafından 1557 yılında yeniden yaptırıldığı anlaşılmaktadır. Asıl kale kapısından girince, kalenin iç kesimlerine ve üstüne doğru açılan iki yol vardır. Sola açılan yoldan, kalenin üst kısmına ulaşılır. İç kesimlerine doğru devam eden yoldan ise; galeri, dehliz ve kale odalarına ulaşılır. Kalede ana kütle altında ise bir su kaynağı bulunmaktadır.
+Gaziantep Arkeoloji Müzesi tarafından yürütülen arkeolojik kazılar sonucunda, Osmanlı dönemine ait bir hamam ile 2000 yılında yapılan kazılarda ise, bir cami ortaya çıkartılmıştır. Hamamın banyo, buhar odası ve bacaları ortaya çıkarılmıştır. Buhar odasının köşesinde bulunan kanallar vasıtasıyla içeride buhar fazlalaşınca dışarıya verildiği bilinmektedir. Hamam; mimari olarak pek gösterişli olmamakla birlikte teknik bakımdan üstün özellikler taşımaktadır. Cami ise Osmanlı mimarisi tarzında olup, dikdörtgen planlıdır. Caminin güney cephesinde yarım daire şeklinde mihrap, mihrabın sağında ve solunda ikişer adet kitap koyma bölümleri ve mihrabın sol tarafında güneyden dışarıya açılan bir kapı girişi ortaya çıkartılmıştır. Ayrıca mihrabın sağ tarafından kızaklı bir minberin de yeri bulunmuştur. Ayrıca 2002 yılından günümüze kadar devam eden kazı çalışmalarında ise Kale Hamamı’nın kuzeyinde, Kale camisinin doğusunda ve güneyinde 5x5 metrelik açmalarla kazı çalışmaları yapılmıştır. Bu kazılarda, Erken İslam, Bizans, Osmanlı dönemine ait çeşitli mimari yapı kalıntıları, seramik/metal parçaları, mermi çekirdekleri, Bizans dönemine ait bilezik parçaları, pişmiş toprak kandiller, Bizans ve Osmanlı dönemine ait sikkeler, çok sayıda demir gülle, çakmaklı tüfek parçaları ve bazıları mühürlü pipo parçaları ile bazı hayvan kemikleri ele geçmiştir. Kalenin etrafında ise hendek yeri tespit edilmiş olup bir bölümünün kazısı yapılmıştır. Tüm bu yapılan ve yapılacak olan çalışmalarla Gaziantep turizmine kazandırılan Gaziantep Kalesi ihtişamıyla ziyaretçileri beklemekte ve şehir merkezinde tarihi yapısıyla önemli cazibe merkezlerinden birisi haline gelmiştir. "
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

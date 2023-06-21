@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="11dp"
+    tools:context=".lahmacun">
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Lahmacun"
+        android:textSize="22dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="11dp"
+        android:layout_height="wrap_content"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="263dp"
+                app:srcCompat="@drawable/llahmacun" />
+
+            <TextView
+                android:id="@+id/tarihce_acıklama_activity_hk"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="7dp"
+                android:text="ahmacun açılmış hamurun üzerine kıyma, maydanoz, soğan, sarımsak ve çeşitli baharatlarla hazırlanan malzeme sürüldükten sonra taş fırınlarda pişirilerek hazırlanır. Çok eski bir Anadolu yiyeceği olan Lahmacun, 17'nci yüzyılda Evliya Çelebi tarafından yazılan Seyahatname’de lahm-ı acinli börek olarak geçer. Arapça et ve hamur anlamına gelen lahm ve acin kelimelerinden türemiş olsa da ülkemizde yaklaşık 300 yıldır tüketilen bir yiyecektir.  Gaziantep'te lahmacun günlük yemeklerde, törenlerde, cenazelerde ve pikniklerde sıklıkla tüketilir. Gaziantep Lahmacunu içeriğinde kullanılan malzemeler ve sunum açısından diğer lahmacunlardan ayrılır. Gaziantep lahmacununda zırh ile çekilen kuzu kıyma, sarımsak, maydanoz, biber ve çeşitli baharatlar kullanılır. Diğer lahmacun çeşitlerinden farklı olarak soğan içermez. Lahmacun için uygulanan TSE K 199 standardına göre lahmacun yüzde 35 oranında kıyma içermelidir ancak Antep Lahmacununda yüzde 55-60 oranında kıyma bulunmalıdır. Gaziantep Lahmacunu taş fırında pişmelidir. Bunun yanı sıra üzerine közlenmiş ve soyulmuş bir adet patlıcan konarak servis edilir.  "
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

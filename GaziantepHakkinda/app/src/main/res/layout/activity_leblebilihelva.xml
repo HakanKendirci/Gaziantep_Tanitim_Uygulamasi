@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="11dp"
+    tools:context=".leblebilihelva">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="11dp"
+        android:text="Leblebili Helva"
+        android:textColor="#000000"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="263dp"
+                app:srcCompat="@drawable/leblebilihelva" />
+
+            <TextView
+                android:id="@+id/tarihce_acıklama_activity_hk"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="7dp"
+                android:text="Leblebi helvası, leblebiyle helva yapmayı mutlaka denemelisiniz. Mükemmel bir lezzeti olan helvayı bu şekilde hazırlayabilirsiniz. Fakat bunun için leblebileri robottan geçirerek un haline getirmeniz gerekir. Biliyorsunuz leblebi kuru yemişler içinde kalorisi en düşük olanlardan birisi. Bu yüzden evde un ya da irmikle hazırlayacağınız helvayla kıyaslandığında, daha düşük kalorili bir helva yemiş olacaksınız. Bu nedenle özellikle diyet yapan kişiler tatlı ihtiyaçlarını bu şekilde giderebilir. "
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

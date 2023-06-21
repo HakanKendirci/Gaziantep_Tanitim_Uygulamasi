@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="11dp"
+    tools:context=".iclikofte">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="11dp"
+        android:text="İçli Köfte"
+        android:textColor="#000000"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="263dp"
+                app:srcCompat="@drawable/icclikofte" />
+
+            <TextView
+                android:id="@+id/tarihce_acıklama_activity_hk"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="7dp"
+                android:text="İçli köfte diğer adıyla Oruk, Arap mutfağından (Suriye, Lübnan, Ürdün, Irak, Mısır) Türk mutfağına giren bulgurun hamur haline getirilerek içinin doldurulmasıyla yapılan bir yemektir. Arap mutfağında asıl ismi, Arapça’da yuvarlak anlamına geldiği için “Kibbe” veya “Kubbeh” olarak geçmektedir.  Kesin tarihi bilinmemekte olup, yapılışının Geç Hititler Dönemine (MÖ 800) dayandığı varsayılmaktadır. 2.Dünya Savaşında Suriye’de bulunan İngilizler bu yemeğe Suriye Torpidosu ismini vermişlerdir.  Türk mutfağında içli köfte olarak bilinen bu yemek daha çok Mardin, Adana, Adıyaman, Kahramanmaraş , Gaziantep, Şanlıurfa, Diyarbakır, Osmaniye, Hatay, Malatya, Elazığ, Tunceli yörelerinde yapılmaktadır.  Köftenin içi yörelere göre kıyma veya kuyruk yağı içerebilir. İç harcı soğan, baharat ve isteğe göre ceviz içi ile desteklenir. Kimi yerlerde yuvarlak, kimi yerlerde oval biçimde şekil verilir.  İçli köftenin servisi iki şekilde yapılır. Haşlanarak veya kızartılarak. Haşlanarak pişirilen içli köfte hafiftir. Bulgur iyi yoğurulmamışsa haşlanırken dağılabilir. Kızartılarak yapılan içli köfte, haşlanarak yapılana göre daha ağırdır ve daha zor sindirilir.  İçli köftenin iç harcı her zaman önce hazırlanmalı, mümkünse iyice soğumalı ve donmalıdır. Köftenin hamuru ise çok bekletilmemeli, yoğurduktan sonra hemen köftelerin yapımına başlanmalıdır."
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

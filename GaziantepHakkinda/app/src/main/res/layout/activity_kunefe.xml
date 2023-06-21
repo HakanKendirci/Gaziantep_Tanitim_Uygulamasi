@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="11dp"
+    tools:context=".kunefe">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="11dp"
+        android:text="Künefe"
+        android:textColor="#000000"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="263dp"
+                app:srcCompat="@drawable/kkunefe" />
+
+            <TextView
+                android:id="@+id/tarihce_acıklama_activity_hk"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="7dp"
+                android:text="Künefe, şerbetli tatlı kategorisi içerisinde özellikle Türkiye çapında sıklıkla tüketilen ve tercih edilen lezzetlerden birisi olmaktadır. Ülkemiz genelinde yoğun bir tartışma konusu olan künefe için tam olarak nerede yapıldığı ya da hangi şehre özgü olduğunu söylemek mümkün değil. Genel olarak Mersin ve Hatay gibi şehirlerde tartışma devam etmekte olup beraberinde Akdeniz ve Güneydoğu Anadolu şehirleri de künefenin kendine ait olduğunu iddia etmekte olmalarıyla birlikte, kökeninin Ortadoğu’dan geldiği bilinmektedir. İçerisinde yer alan malzemeler ile birlikte ön planda olup yaş kadayıf kullanılarak üretilmektedir. Bu durumdan dolayı künefenin atası olarak ise kadayıf tatlısı kabul ediliyor. Ortadoğu coğrafyasında yer alan Arap ülkeleri tarafından da yoğun bir şekilde tüketilen bir tatlı çeşididir. Arapça içerisinde yer alan kenefe fiili ile birlikte ismini aldığının düşünülmesidir. Arapça içinde bu kelime kucaklamak ve sarmak anlamına gelir. Künefe tatlısını da kadayıf peyniri sardığından dolayı bu tatlıya bu ismin verilmiş olduğu düşünülüyor.ervis edilir."
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

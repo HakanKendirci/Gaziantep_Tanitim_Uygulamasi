@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="11dp"
+    tools:context=".zeugma">
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Zeugma Antik Kenti"
+        android:textSize="22dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="11dp"
+        android:layout_height="wrap_content"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="263dp"
+                app:srcCompat="@drawable/zzeugma" />
+
+            <TextView
+                android:id="@+id/tarihce_acıklama_activity_hk"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="7dp"
+                android:text="Gaziantep Zeugma Mozaik Müzesi sanat tarihçileri ve arkeologlar kadar tarihe ve kültüre meraklı her yaştan ziyaretçi için çok önemli ve gözde bir müzedir. Müze, Türkiye’yi ziyaret etmek için tek başına sebep oluşturabilecek bir sanatsal zenginliğe ve çeşitliliğe sahiptir. Gerek bina büyüklüğü gerekse sergilenen mozaiklerin kapladığı alan bakımından, dünyanın en büyük mozaik müzelerinden biri olarak bilinmektedir.  Müzede sergilenen mozaiklerin üstün bir sanat zevkini yansıtması, Geç Antik Dönem kiliseleri ile Erken Süryani ve Hristiyan ikonografisine ait örnekleri barındırması müzeyi daha da çekici hale getirmektedir.  Çağımızın en önemli arkeolojik keşiflerinden olan Zeugma Antik Kenti’nden çıkartılan, toplamda 2 bin 500 metrekarelik bir alan kaplayan ve bu dönemde sanatın ulaştığı zirve noktasının örneklerini meydana getiren mozaiklerin haricinde, yine Roma Dönemi’ne ait heykeller, sütunlar ve çeşmeleri de müzede görmek mümkündür.  Örneğin Savaş Tanrısı Ares’in bronz heykeli, mozaikler dışında ziyaretçilerin müzede en fazla ilgisini çeken eserler arasında yer almaktadır."
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
